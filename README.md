@@ -50,12 +50,11 @@ Join My <a href='https://t.me/neonfiles'>Update Channel</a> For More Update Rega
 * [`API_ID`] - _**From  <a href='https://my.telegram.org/'>Telegram Auth**_</a>
 * [`API_HASH`] - _**From <a href='https://my.telegram.org/'>Telegram Auth**_</a>
 * [`BOT_TOKEN`] - _**From <a href='https://t.me/botfather'>BotFather**_</a>
-* [`ADMIN`] - **_Admin user id_**
+* [`ADMINS`] - **_Username or ID of Admin. `Separate multiple IDs by space`_**
 * [`DB_URL`] - _**Your<a href='https://cloud.mongodb.com/'> MongoDB Url**_</a>
 * [`DB_NAME`] - _**Your <a href='https://cloud.mongodb.com/'>MongoDB database Name**_</a> _`Optional`_
 * [`LOG_CHANNEL`] - _**Bot Log Channel. Id startswith -100**_
-* [`FORCE_SUB`] - _**Force Sub Channel without @**_ _`Optional`_
-* [`START_PIC`] - _**Start message photo**_ _`Optional`_
+* [`CHANNELS`] - _**This Is File Channel, Username or ID of channel or group.`Separate multiple IDs by space`**_
 </details>
 
 ### _How To Deploy_
@@ -165,16 +164,6 @@ restart  - 𝑅𝑒𝑠𝑡𝑎𝑟𝑡 𝐵𝑜𝑡 𝑆𝑒𝑟𝑣𝑒𝑟
 
 <h3>Visitors Counts 👀</h3>
 <a href="https://github.com/MyselfNeon/RenameBot-2GB"><img alt="Cute Count" src="https://count.getloli.com/get/@RenameBot-2GB?theme=rule34" /></a>
-
-
-## Variables
-
-### Required Variables 
-* `CHANNELS`: This Is File Channel, Username or ID of channel or group. Separate multiple IDs by space
-* `ADMINS`: Username or ID of Admin. Separate multiple Admins by space
-* `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/DAHRmFdw99o)
-* `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.</b>
-
 
 <details><summary><b>Deploy To Heroku</b></summary>
 <p>
