@@ -43,6 +43,21 @@ Note :
 
 Join My <a href='https://t.me/neonfiles'>Update Channel</a> For More Update Regarding Repo.</i></b>
 
+### _Config Variables_
+
+<details><summary><b>Variables</summary></b></summary>
+
+* [`API_ID`] - _**From  <a href='https://my.telegram.org/'>Telegram Auth**_</a>
+* [`API_HASH`] - _**From <a href='https://my.telegram.org/'>Telegram Auth**_</a>
+* [`BOT_TOKEN`] - _**From <a href='https://t.me/botfather'>BotFather**_</a>
+* [`ADMIN`] - **_Admin user id_**
+* [`DB_URL`] - _**Your<a href='https://cloud.mongodb.com/'> MongoDB Url**_</a>
+* [`DB_NAME`] - _**Your <a href='https://cloud.mongodb.com/'>MongoDB database Name**_</a> _`Optional`_
+* [`LOG_CHANNEL`] - _**Bot Log Channel. Id startswith -100**_
+* [`FORCE_SUB`] - _**Force Sub Channel without @**_ _`Optional`_
+* [`START_PIC`] - _**Start message photo**_ _`Optional`_
+</details>
+
 ### _How To Deploy_
 
 <details><summary><b><i>Deploy on Multiple Servers</i></summary></b></summary>
