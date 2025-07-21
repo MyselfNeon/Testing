@@ -140,6 +140,17 @@ purgerequests - 𝐷𝑒𝑙𝑒𝑡𝑒 𝑎𝑙𝑙 𝐽𝑜𝑖𝑛 𝑅𝑒�
 totalrequests - 𝑇𝑜𝑡𝑎𝑙 𝐽𝑜𝑖𝑛 𝑅𝑒𝑞𝑢𝑒𝑠𝑡
 restart  - 𝑅𝑒𝑠𝑡𝑎𝑟𝑡 𝐵𝑜𝑡 𝑆𝑒𝑟𝑣𝑒𝑟
 ```
+<b><i>⪼ Copy all Commands and paste it in <a href='https://t.me/botfather'>BotFather</a> to apply commands.
+
+<h3>Contact Developer</h3>
+
+[![Contact Developer](https://img.shields.io/badge/Contact-Developer-blue?logo=telegram)](https://t.me/MyselfNeon)
+
+[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-blue?logo=telegram)](https://t.me/neonfiles)
+
+<h3>Visitors Counts 👀</h3>
+<a href="https://github.com/MyselfNeon/RenameBot-2GB"><img alt="Cute Count" src="https://count.getloli.com/get/@RenameBot-2GB?theme=rule34" /></a>
+
 
 ## Variables
 
