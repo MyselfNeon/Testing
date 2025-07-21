@@ -15,27 +15,27 @@ _**Watch on Telegram as [ZeroFilter-Bot](https://t.me/zerofilterbot)**_
 
 ### _Main Features_
 <b><i>
-- [x] Clone Feature & On / Off 
-- [x] Multiple Database Support
+- [x] Custom Stream
+- [x] Ai Spell Check 
+- [x] Stream Support
+- [x] Force Subscribe
+- [x] Request To Join
+- [x] Send All Button
+- [x] Pm Search On / Off
 - [x] Premium Plan Feature
 - [x] Refer To Get Premium
-- [x] Ai Spell Check 
+- [x] Url Shortner On / Off
 - [x] Custom Force Subscribe
-- [x] Rename Feature & On / Off
-- [x] Premium And Refer On / Off 
-- [x] Stream Feature On / Off 
-- [x] Url Shortner On / Off  
-- [x] Pm Search On / Off
-- [x] Request To Join
-- [x] Force Subscribe
-- [x] Custom Stream
-- [x] Stream Support 
-- [x] Auto Approve & On / Off
-- [x] Custom Url Shortner Support
-- [x] Token Verification & On / Off
-- [x] Send All Button 
 - [x] Custom Tutorial Button
+- [x] Stream Feature On / Off
+- [x] Auto Approve & On / Off
 - [x] Bot Pm File Auto Delete
+- [x] Clone Feature & On / Off 
+- [x] Multiple Database Support
+- [x] Rename Feature & On / Off
+- [x] Premium And Refer On / Off   
+- [x] Custom Url Shortner Support
+- [x] Token Verification & On / Off 
 - [x] And many more ...
 
 Note :   
