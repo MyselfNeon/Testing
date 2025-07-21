@@ -1,3 +1,7 @@
+<h2 align="center">
+    <i>ZeroFilter-Bot</i>
+</h2>
+
 <p align="center">
   <img src="[https://envs.sh/fSh.jpg](https://telegra.ph/file/a566e1d663eab31e5a94b-522aa4b1c02e0f5dd0.jpg)" alt="VJ-Filter-Bot Logo">
 </p>
