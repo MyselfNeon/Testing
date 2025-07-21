@@ -165,6 +165,8 @@ Join My <a href='https://t.me/neonfiles'>Update Channel</a> For More Update Rega
 <h3>Visitors Counts</h3>
 <a href="https://github.com/MyselfNeon/RenameBot-2GB"><img alt="Cute Count" src="https://count.getloli.com/get/@RenameBot-2GB?theme=rule34" /></a>
 
+<b>This is total number of visitors who have watched this Repo.
+
 ### _Thanks to_ 
  - <b>Thanks To [Pyrogram Library](https://github.com/pyrogram/pyrogram) & [Pyrofork Library](https://github.com/Mayuri-Chan/pyrofork)
  - Thanks To [NeonAn](https://t.me/@myselfneon) To Modify And Add Amazing Feature
