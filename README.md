@@ -169,10 +169,7 @@ restart  - 𝑅𝑒𝑠𝑡𝑎𝑟𝑡 𝐵𝑜𝑡 𝑆𝑒𝑟𝑣𝑒𝑟
 
 ## Variables
 
-### Required Variables
-* <b>`BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
-* `API_ID`: Get this value from [telegram.org](https://my.telegram.org/apps)
-* `API_HASH`: Get this value from [telegram.org](https://my.telegram.org/apps)
+### Required Variables 
 * `CHANNELS`: This Is File Channel, Username or ID of channel or group. Separate multiple IDs by space
 * `ADMINS`: Username or ID of Admin. Separate multiple Admins by space
 * `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/DAHRmFdw99o)
