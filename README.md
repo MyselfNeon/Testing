@@ -176,7 +176,7 @@ Join My <a href='https://t.me/neonfiles'>Update Channel</a> For More Update Rega
 
 ### _Note_ 🏷️
  
-[![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.me/MyselfNeon) 
+[![Contact Developer](https://img.shields.io/badge/Telegram-Contact%20Developer-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://telegram.me/MyselfNeon) 
 
 <b>Fork The Repo And Edit As Per Your Needs. Repo is fully Customizable </b>
 
