@@ -164,7 +164,7 @@ restart  - 𝑅𝑒𝑠𝑡𝑎𝑟𝑡 𝐵𝑜𝑡 𝑆𝑒𝑟𝑣𝑒𝑟
 Join My <a href='https://t.me/neonfiles'>Update Channel</a> For More Update Regarding Repo.
 
 <h3>Visitors Counts</h3>
-<a href="https://github.com/MyselfNeon/NeonFilter-Bot"><img alt="Cute Count" src="https://count.getloli.com/get/@NeonFilter-Bot?theme=rule34" /></a>
+<a href="https://github.com/MyselfNeon/NeonFilter-Bot"><img alt="View Count" src="https://count.getloli.com/get/@NeonFilter-Bot?theme=gelbooru" /></a>
 
 <b>This is total number of visitors who have watched this Repo.
 
