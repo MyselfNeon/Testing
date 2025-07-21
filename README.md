@@ -2,12 +2,9 @@
     <i>ZeroFilter-Bot</i>
 </h2>
 
-<p align="center">
-  <img src="[https://envs.sh/fSh.jpg](https://telegra.ph/file/a566e1d663eab31e5a94b-522aa4b1c02e0f5dd0.jpg)" alt="VJ-Filter-Bot Logo">
-</p>
-<h1 align="center">
-  VJ FILTER BOT
-</h1>
+<img src="https://envs.sh/7gW.jpg" alt="logo" target="/blank">
+
+_**Watch on Telegram as [ZeroFilter-Bot](https://t.me/zerofilterbot)**_
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+VJ+Filter+Bot!)
 </p>
