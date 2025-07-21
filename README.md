@@ -6,15 +6,13 @@
 
 _**Watch on Telegram as [ZeroFilter-Bot](https://t.me/zerofilterbot)**_
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+VJ+Filter+Bot!)
-</p>
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=ZERO+FILTER+BOT+!!;CREATED+BY+MYSELFNEON+⚡;CODED+WITH+ADVANCED+FEATURES+📝&color=00FF00)
 
-## Main Feature 
-<b>
-  
-- [x] Clone Feature & On / Off
+### _Main Features_
+<b><i>
+- [x] Clone Feature & On / Off 
 - [x] Multiple Database Support & On / Off
-- [x] Premium Plan Feature 
+- [x] Premium Plan Feature
 - [x] Refer To Get Premium
 - [x] Ai Spell Check 
 - [x] Custom Force Subscribe
@@ -36,7 +34,7 @@ _**Watch on Telegram as [ZeroFilter-Bot](https://t.me/zerofilterbot)**_
 
 - Note : You Can Turn On Or Off Every Feature, Just Use Which Feature You Want By Turning It On.
 
-Join My <a href='https://telegram.dog/vj_botz'>Update Channel</a> For More Update Regarding Repo.</b>
+Join My <a href='https://telegram.dog/vj_botz'>Update Channel</a> For More Update Regarding Repo.</i></b>
 
 ### How To Deploy : [Video Tutorial](https://youtu.be/3SJR7vH2kRo)
 
