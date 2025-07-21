@@ -169,7 +169,7 @@ Join My <a href='https://t.me/neonfiles'>Update Channel</a> For More Update Rega
 
 ### _Thanks to_ 
  - <b>Thanks To [Pyrogram Library](https://github.com/pyrogram/pyrogram) & [Pyrofork Library](https://github.com/Mayuri-Chan/pyrofork)
- - Thanks To [NeonAn](https://t.me/@myselfneon) To Modify And Add Amazing Feature
+ - Thanks To [NeonAn](https://t.me/myselfneon) To Modify And Add Amazing Feature
  - Thanks To [Eva Marie](https://t.me/TeamEvamaria) For Base
  - Thanks To Everyone who have contributed In This Awesome Journey</b>
 
