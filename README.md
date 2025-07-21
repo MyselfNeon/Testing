@@ -36,7 +36,7 @@ _**Watch on Telegram as [ZeroFilter-Bot](https://t.me/zerofilterbot)**_
 - [x] Send All Button 
 - [x] Custom Tutorial Button
 - [x] Bot Pm File Auto Delete
-- [x] And more ...
+- [x] And many more ...
 
 Note :   
 • You Can Turn On / Off Every Feature  
