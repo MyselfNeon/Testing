@@ -21,8 +21,17 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 # 🔹 START PICTURES
 # ============================================================
 # (Add Multiple By Giving One Space Between Each)
-PICS = (environ.get('PICS', 'https://files.catbox.moe/ybg6gw.jpg https://files.catbox.moe/b5a3dz.jpg https://files.catbox.moe/n0xw7h.jpg https://files.catbox.moe/fhexii.jpg https://files.catbox.moe/v7w8co.jpg https://files.catbox.moe/r946bu.jpg')).split()
-
+PICS = (
+    environ.get(
+        'PICS',
+        'https://files.catbox.moe/ybg6gw.jpg '
+        'https://files.catbox.moe/b5a3dz.jpg '
+        'https://files.catbox.moe/n0xw7h.jpg '
+        'https://files.catbox.moe/fhexii.jpg '
+        'https://files.catbox.moe/v7w8co.jpg '
+        'https://files.catbox.moe/r946bu.jpg'
+    )
+).split()
 
 # ============================================================
 # 🔹 ADMINS & USERS
@@ -236,8 +245,11 @@ AUTO_APPROVE_MODE = bool(environ.get('AUTO_APPROVE_MODE', False))
 # ============================================================
 # 🔹 START COMMAND REACTIONS
 # ============================================================
-REACTIONS = ["🤝", "😇", "🤗", "😍", "👍", "🎅", "😐", "🥰", "🤩", "😱", "🤣", "😘", "👏", "😛", "😈", "🎉", "⚡️", "🫡", "🤓", "😎", "🏆", "🔥", "🤭", "🌚", "🆒", "👻", "😁"] 
-#don't add any emoji because tg not support all emoji reactions
+REACTIONS = [
+    "🤝", "😇", "🤗", "😍", "👍", "🎅", "😐", "🥰", "🤩",
+    "😱", "🤣", "😘", "👏", "😛", "😈", "🎉", "⚡️", "🫡",
+    "🤓", "😎", "🏆", "🔥", "🤭", "🌚", "🆒", "👻", "😁"]
+# Don't add unsupported emojis because Telegram reactions have limits
 
 
 
