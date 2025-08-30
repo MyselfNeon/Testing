@@ -2,15 +2,17 @@ import re
 from os import environ
 from Script import script 
 
+# ====================== REGEX PATTERN ======================
 id_pattern = re.compile(r'^.\d+$')
 
-# Bot information
+# ====================== BOT INFORMATION ======================
 SESSION = environ.get('SESSION', 'MyselfNeon')
 API_ID = int(environ.get('API_ID', ''))
 API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
-# This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
+# ====================== START MESSAGE PICTURES ======================
+# (Add Multiple By Giving One Space Between Each)
 PICS = (environ.get('PICS', 'https://files.catbox.moe/ybg6gw.jpg https://files.catbox.moe/b5a3dz.jpg https://files.catbox.moe/n0xw7h.jpg https://files.catbox.moe/fhexii.jpg https://files.catbox.moe/v7w8co.jpg https://files.catbox.moe/r946bu.jpg')).split()
 
 # Admins & Users
@@ -181,4 +183,5 @@ else:
     OTHER_DB_URI = O_DB_URI       # This Db Is For Other Data Store
     FILE_DB_URI = F_DB_URI        # This Db Is For File Data Store
     SEC_FILE_DB_URI = S_DB_URI    # This Db is for File Data Store When First Db Is Going To Be Full.
+
 
