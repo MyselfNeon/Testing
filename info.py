@@ -2,24 +2,31 @@ import re
 from os import environ
 from Script import script 
 
-# ============== REGEX PATTERN ==============
-
+# ============================================================
+# 🔹 REGEX PATTERN
+# ============================================================
 id_pattern = re.compile(r'^.\d+$')
 
-# ============== BOT INFORMATION ==============
 
+# ============================================================
+# 🔹 BOT INFORMATION
+# ============================================================
 SESSION = environ.get('SESSION', 'MyselfNeon')
 API_ID = int(environ.get('API_ID', ''))
 API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
-# ============== START MESSAGE PICTURES ==============
 
+# ============================================================
+# 🔹 START PICTURES
+# ============================================================
 # (Add Multiple By Giving One Space Between Each)
 PICS = (environ.get('PICS', 'https://files.catbox.moe/ybg6gw.jpg https://files.catbox.moe/b5a3dz.jpg https://files.catbox.moe/n0xw7h.jpg https://files.catbox.moe/fhexii.jpg https://files.catbox.moe/v7w8co.jpg https://files.catbox.moe/r946bu.jpg')).split()
 
-# ============== ADMINS & USERS ==============
 
+# ============================================================
+# 🔹 ADMINS & USERS
+# ============================================================
 ADMINS = [int(admin) if id_pattern.search(admin) else admin
           for admin in environ.get('ADMINS', '841851780').split()]  # Multiple IDs separated by space
 
@@ -28,8 +35,10 @@ auth_users = [int(user) if id_pattern.search(user) else user
 
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 
-# ============== CHANNELS & GROUPS ==============
 
+# ============================================================
+# 🔹 CHANNELS AND GROUPS
+# ============================================================
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001889915480'))
 
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch
@@ -60,8 +69,10 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-100
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch
                    for dch in environ.get('DELETE_CHANNELS', '-1002231967338').split()]
 
-# ============== DATABASE ==============
 
+# ============================================================
+# 🔹 DATABASE
+# ============================================================
 DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "MyselfNeon")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'neoncollection')
@@ -81,9 +92,10 @@ else:
     FILE_DB_URI = F_DB_URI
     SEC_FILE_DB_URI = S_DB_URI
 
-# ============== Premium and REFERAL  ==============
 
-# Premium And Referal Settings
+# ============================================================
+# 🔹 PREMIUM AND REFERAL 
+# ============================================================
 PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) # Set Ture Or False
 
 # If PREMIUM_AND_REFERAL_MODE is True Then Fill Below Variable, If Flase Then No Need To Fill.
@@ -214,5 +226,6 @@ AUTO_APPROVE_MODE = bool(environ.get('AUTO_APPROVE_MODE', False))
 REACTIONS = ["🤝", "😇", "🤗", "😍", "👍", "🎅", "😐", "🥰", "🤩", "😱", "🤣", "😘", "👏", "😛", "😈", "🎉", "⚡️", "🫡", "🤓", "😎", "🏆", "🔥", "🤭", "🌚", "🆒", "👻", "😁"] 
 
 #don't add any emoji because tg not support all emoji reactions
+
 
 
