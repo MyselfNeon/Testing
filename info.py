@@ -117,22 +117,27 @@ PAYMENT_TEXT = environ.get(
     '• After Sending Screenshot Give Us Some Time To Add You In Premium</i></b>'
 )
 
-# ============== CLONE SETTINGS ==============
-
+# ============================================================
+# 🔹 CLONE SETTINGS
+# ============================================================
 # Clone Information : If Clone Mode Is True Then Bot Clone Other Bots.
 CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
 CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "") # Necessary If clone mode is true
 PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
 
 
-# ============== Links ==============
+# ============================================================
+# 🔹 LINKS
+# ============================================================
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+o1s-8MppL2syYTI9')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/neonfiles')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Talk2NeonBot') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/MyselfNeon')
 
-# ============== Features (True/False switches) ==============
 
+# ============================================================
+# 🔹 FEATURES (True/False Switches)
+# ============================================================
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
 PM_SEARCH = bool(environ.get('PM_SEARCH', True))
 BUTTON_MODE = bool(environ.get('BUTTON_MODE', True))
@@ -149,8 +154,10 @@ PUBLIC_FILE_STORE = bool(environ.get('PUBLIC_FILE_STORE', True))
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-# ============== Token Verification Info ==============
 
+# ============================================================
+# 🔹 TOKEN VERIFICATIONS
+# ============================================================
 VERIFY = bool(environ.get('VERIFY', False))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', '')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '')
@@ -163,14 +170,19 @@ VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', '')
 VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 
-# ============== Shortlink Info =========TLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)) # Set True Or False
+# ============================================================
+# 🔹 SHORTLINK SETTINGS
+# ============================================================
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
 SHORTLINK_API = environ.get('SHORTLINK_API', '')
-TUTORIAL = environ.get('TUTORIAL', '') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
+TUTORIAL = environ.get('TUTORIAL', '')
 
 
-# ============== Miscellaneous Settings ==============
-#CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
+# ============================================================
+# 🔹 MISCELLANEOUS SETTINGS
+# ============================================================
+CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 PORT = environ.get("PORT", "8080")
 MSG_ALRT = environ.get('MSG_ALRT', 'Powered by @NeonFiles ❤️✨')
@@ -181,8 +193,9 @@ IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 
 
-# ============== Filter Options ==============
-
+# ============================================================
+# 🔹 FILTER OPTIONS
+# ============================================================
 LANGUAGES = ["malayalam", "mal", "tamil", "tam", "english", "eng", "hindi", "hin",
              "telugu", "tel", "kannada", "kan"]
 
@@ -196,7 +209,7 @@ YEARS = [str(year) for year in range(1900, 2026)]
 
 
 # ============================================================
-# 🔹 Streaming & Download
+# 🔹 STREAMING & DOWNLOAD
 # ============================================================
 STREAM_MODE = bool(environ.get('STREAM_MODE', False))
 
@@ -209,23 +222,24 @@ URL = environ.get("URL", "https://testofvjfilter-1fa60b1b8498.herokuapp.com/")
 
 
 # ============================================================
-# 🔹 Rename
+# 🔹 RENAME
 # ============================================================
 RENAME_MODE = bool(environ.get('RENAME_MODE', True))
 
 
 # ============================================================
-# 🔹 Auto Approve
+# 🔹 AUTO APPROVE
 # ============================================================
 AUTO_APPROVE_MODE = bool(environ.get('AUTO_APPROVE_MODE', False))
 
 
 # ============================================================
-# 🔹 Start Command Reactions
+# 🔹 START COMMAND REACTIONS
 # ============================================================
 REACTIONS = ["🤝", "😇", "🤗", "😍", "👍", "🎅", "😐", "🥰", "🤩", "😱", "🤣", "😘", "👏", "😛", "😈", "🎉", "⚡️", "🫡", "🤓", "😎", "🏆", "🔥", "🤭", "🌚", "🆒", "👻", "😁"] 
 
 #don't add any emoji because tg not support all emoji reactions
+
 
 
 
